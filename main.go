@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"go-vals/pipeline"
 	"net/http"
 	"os"
 
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
+	"github.com/yaameen/pipeline-and-more/pipeline"
 )
 
 var emails = []string{"a@b.c"}
